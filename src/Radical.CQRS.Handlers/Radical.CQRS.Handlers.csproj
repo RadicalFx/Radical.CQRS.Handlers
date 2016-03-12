@@ -56,16 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Radical.CQRS.Messages\Radical.CQRS.Messages.csproj">
-      <Project>{94f74f07-0d21-4ffd-81ea-bc944d934627}</Project>
-      <Name>Radical.CQRS.Messages</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Radical.CQRS\Radical.CQRS.csproj">
-      <Project>{653a6247-a969-494c-abbb-4287ffb729d9}</Project>
-      <Name>Radical.CQRS</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
